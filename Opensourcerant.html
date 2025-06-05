@@ -1,0 +1,251 @@
+<html>
+  <head>
+    <base href= />
+    <title>Turbobro</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+      :root {
+        --primary-color: #73739b;
+        --secondary-color: #01060e;
+        --background-color: #000000;
+        --text-color: #90a4da;
+      }
+
+      body {
+        font-family: "VT323", monospace;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+
+      .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        padding: 20px;
+      }
+
+      header {
+        background: var(--primary-color);
+        color: var(--background-color);
+        padding: 1rem;
+        text-align: center;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-family: "VT323", monospace;
+        text-transform: uppercase;
+      }
+
+      nav {
+        background: var(--secondary-color);
+        color: var(--background-color);
+        padding: 0.5rem;
+      }
+
+      nav ul {
+        padding: 0;
+        list-style: none;
+        text-align: center;
+      }
+
+      nav ul li {
+        display: inline;
+        margin: 0 10px;
+      }
+
+      nav ul li a {
+        color: var(--background-color);
+        text-decoration: none;
+      }
+
+      .mission {
+        border: 2px solid var(--primary-color);
+        padding: 20px;
+        margin: 20px 0;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px 0;
+      }
+
+      .gallery img {
+        width: 100%;
+        height: auto;
+        border: 2px solid var(--secondary-color);
+      }
+
+      .resources {
+        background: var(--secondary-color);
+        color: #90a4da;
+        padding: 20px;
+        margin: 20px 0;
+      }
+
+      .comments {
+        border-top: 2px solid var(--primary-color);
+        margin-top: 20px;
+        padding-top: 20px;
+      }
+
+      .comment {
+        background: rgba(20, 131, 165, 0.1);
+        border: 1px solid var(--primary-color);
+        padding: 10px;
+        margin: 10px 0;
+      }
+
+      @keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      .blink {
+        animation: blink 1s infinite;
+      }
+
+      .stars {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: -1;
+      }
+
+      .star {
+        position: absolute;
+        background-color: #ffffff;
+        width: 2px;
+        height: 2px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="stars"></div>
+    <header>
+      <h1 class="blink">Turbobro</h1>
+    </header>
+
+    <div class="container">
+      <section id="mission" class="mission">
+        <h2>&gt; My Mission</h2>
+        <p>
+          Hello, and welcome to my list of open source apps that I want to make
+          everyone aware of. It is important to me that the internet doesn't
+          change too drastically and avoid coorporate domanance. I hope I can
+          motivate you to contribute to open source and keep things free and
+          available for everyone, if not then inspire you to create your own
+          project and learn from it. Any small contribution to the internet that
+          isn't a profit motivated company is a win for us all.
+        </p>
+        <p>
+          This list is everything that I come across and is open source.
+          Hopefully it is organized to your liking. Also the video below shows
+          you how to live a open source life!
+        </p>
+        <div class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Gj6HqWCdk3s?si=hv3Z5cvbnIwDFXD5"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery">
+        <h2>&gt; Top picks</h2>
+        <img
+          src="https://picsum.photos/seed/spacestation1/400/300"
+          alt="Space Station UNO exterior"
+          width="400"
+          height="300"
+        />
+        <img
+          src="https://picsum.photos/seed/spacestation2/400/300"
+          alt="Docking bay"
+          width="400"
+          height="300"
+        />
+        <img
+          src="https://picsum.photos/seed/spacestation3/400/300"
+          alt="Living quarters"
+          width="400"
+          height="300"
+        />
+        <img
+          src="https://picsum.photos/seed/spacestation4/400/300"
+          alt="Observation deck"
+          width="400"
+          height="300"
+        />
+      </section>
+
+      <section id="resources" class="resources">
+        <h2>&gt; Apps will be added as I discover more.</h2>
+        <ul>
+          <li>---</li>
+          <li>---</li>
+          <li>---</li>
+          <li>---</li>
+          <li>---</li>
+        </ul>
+      </section>
+
+      <section id="comments" class="comments">
+        <h2>&gt; Open Source Apps</h2>
+        <div class="comment">
+          <h3>App1</h3>
+          <p>dis</p>
+        </div>
+        <div class="comment">
+          <h3>App2</h3>
+          <p>dis</p>
+        </div>
+        <div class="comment">
+          <h3>App3</h3>
+          <p>dis</p>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      // Create starry background
+      const starsContainer = document.querySelector(".stars");
+      const numStars = 100;
+
+      for (let i = 0; i < numStars; i++) {
+        const star = document.createElement("div");
+        star.className = "star";
+        star.style.left = `${Math.random() * 100}%`;
+        star.style.top = `${Math.random() * 100}%`;
+        star.style.animationDuration = `${Math.random() * 3 + 2}s`;
+        star.style.animationDelay = `${Math.random() * 5}s`;
+        starsContainer.appendChild(star);
+      }
+    </script>
+  </body>
+</html>
