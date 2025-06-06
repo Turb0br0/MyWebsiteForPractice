@@ -176,7 +176,7 @@ html {
 html {
 	background-color: #606060;
 	background-attachment: fixed, fixed;
-	background-image: url("../../images/Starry.jpg");
+	background-image: url("https://github.com/Turb0br0/OpenSourceRant/blob/main/images/Starry.jpg?raw=true");
 	background-position: top left, center center;
 	background-repeat: repeat, none;
 	background-size: auto, cover;
