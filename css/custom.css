@@ -1,0 +1,89 @@
+body {
+
+  background-image: url("images/pixspacealt.svg");
+
+  background-color: #0f052d;
+
+
+}
+
+.glow {
+  font-size: 80px;
+  color: #5fc75d;
+  text-align: center;
+
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #0f052d, 0 0 1px #0f052d, 0 0 1px #203671, 0 0 1px #203671, 0 0 30px #36868f;
+  }
+
+  to {
+    text-shadow: 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #0f052d, 0 0 1px #0f052d, 0 0 1px #203671, 0 0 1px #203671, 0 0 1px #203671;
+  }
+}
+
+.glow2 {
+  font-size: 25px;
+  color: #5fc75d;
+  text-align: center;
+
+  -moz-animation: glow2 1s ease-in-out infinite alternate;
+  animation: glow2 1s ease-in-out infinite alternate;
+}
+
+
+
+@keyframes glow2 {
+  from {
+    text-shadow: 0 0 5px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d;
+  }
+
+  to {
+    text-shadow: 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d;
+  }
+}
+
+
+.glow3 {
+  font-size: 40px;
+  color: #5fc75d;
+  text-align: center;
+
+  -moz-animation: glow2 1s ease-in-out infinite alternate;
+  animation: glow2 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow3 {
+  from {
+    text-shadow: 0 0 5px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d;
+  }
+
+  to {
+    text-shadow: 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d;
+  }
+}
+
+
+
+.glow4 {
+  font-size: 20px;
+  color: #5fc75d;
+  text-align: center;
+
+  -moz-animation: glow2 1s ease-in-out infinite alternate;
+  animation: glow2 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow4 {
+  from {
+    text-shadow: 0 0 5px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d;
+  }
+
+  to {
+    text-shadow: 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d;
+  }
+}
