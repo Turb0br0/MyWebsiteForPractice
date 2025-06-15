@@ -87,3 +87,12 @@ body {
     text-shadow: 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d, 0 0 1px #5fc75d;
   }
 }
+
+
+.glowlink {
+  font-size: 20px;
+  color: #110add;
+  text-align: center;
+
+
+}
